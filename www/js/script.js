@@ -2,7 +2,7 @@ jQuery(document).ready(function ($) {
 
     $('#botão-desligar').on({
         'click': function () {
-            $('#mudar-imagem').attr('src', 'img/luz_desligada.png');
+            $('#mudar-imagem').attr('src', 'img/luz_desligada.png');    
         }
     });
 
