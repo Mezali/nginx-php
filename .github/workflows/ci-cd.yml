@@ -36,6 +36,6 @@ jobs:
           key: ${{ secrets.CHAVE_PUBLICA_SSH }}
           port: 22
           script: |
-            sudo docker stop php-app && sudo docker rm php-app;
+            sudo docker stop php-app && sudo docker rm php-app && sudo docker image rm mezali/php-app:v1;
             sudo docker pull mezali/php-app:v1;
             sudo docker run -d --network nginx-proxy_default --name=php-app mezali/php-app:v1
