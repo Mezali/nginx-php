@@ -43,6 +43,13 @@
         <a href="./conn.php"><img id="mudar-imagem" src="./img/db.jpeg" class="img-fluid p-2"></a>
       </div>
     </div>
+
+    <div style="text-align: center;" class="col p-2">
+      <h2 class="p-5 bg-info">WordPress</h2>
+      <div class="">
+        <a href="https://wordpress.sgpo.online/"><img id="mudar-imagem" src="./img/wordpress.png" class="img-fluid p-2"></a>
+      </div>
+    </div>
   </div>
 
 
