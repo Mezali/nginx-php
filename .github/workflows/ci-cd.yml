@@ -38,6 +38,6 @@ jobs:
           script: |
             sudo docker stop php-app && sudo docker rm php-app && sudo docker image rm mezali/php-app:v1;
             sudo docker pull mezali/php-app:v1;
-            sudo docker run -d --network loadbalancer --name=php-app-1 -h php-app-1 mezali/php-app:v1
-            sudo docker run -d --network loadbalancer --name=php-app-2 -h php-app-2 mezali/php-app:v1
-            sudo docker run -d --network loadbalancer --name=php-app-3 -h php-app-3 mezali/php-app:v1
+            sudo docker run -d --network loadbalancer --name=php-app-1 -h php-app-1 --ip 172.20.0.10 mezali/php-app:v1
+            sudo docker run -d --network loadbalancer --name=php-app-2 -h php-app-2 --ip 172.20.0.11 mezali/php-app:v1
+            sudo docker run -d --network loadbalancer --name=php-app-3 -h php-app-3 --ip 172.20.0.12 mezali/php-app:v1
