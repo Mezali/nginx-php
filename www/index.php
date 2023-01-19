@@ -16,7 +16,7 @@
   <script src="service-worker.js"></script>
 
   <div class="container-fluid p-3 bg-dark text-white">
-    <h1>DEMO: <mark>GITHUB-ACTIONS</mark></h1>
+    <h1>DEMO: <mark>GITHUB</mark></h1>
   </div>
 
   <div style="text-align: center;" class="row">
